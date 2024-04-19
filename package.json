@@ -1,0 +1,12 @@
+{
+  "name": "number-flash-game",
+  "version": "1.0.0",
+  "description": "for ivan's wedding",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

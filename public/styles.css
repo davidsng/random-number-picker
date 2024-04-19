@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #fff; /* White background for a cleaner look */
+  color: #333; /* Soft black for text */
+  font-family: "Arial", sans-serif; /* Modern, simple font */
+}
+
+.casino {
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #ccc; /* Light grey border */
+  border-radius: 10px;
+  background-color: #f9f9f9; /* Very light grey background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.number-display {
+  margin-top: 20px;
+  font-size: 72px;
+  font-weight: bold;
+  color: #4a90e2; /* Bright blue for the number */
+  background-color: #e0e0e0; /* Light grey for the display background */
+  padding: 20px;
+  border: 1px solid #ccc;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4a90e2; /* Matching blue */
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #357abd; /* Darker blue on hover */
+}
